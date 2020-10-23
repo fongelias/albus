@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 10.16.3
+script:
+  - echo "script"
+deploy:
+  - provider: lambda
+    access_key_id: $AWS_ACCESS_KEY_ID
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    function_name: "helloWorldTemplate"
+    region: "us-east-1"
+    role: $AWS_ROLE
+    runtime: "nodejs12.x"
+    handler_name: "handler"
+    zip: src/helloWorld
