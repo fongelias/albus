@@ -3,11 +3,11 @@ This is a roadmap for the albus application
 
 ## Completed Functionality
 
-## Upcoming Features
+## Upcoming Tickets
  - [ ] Upload an image
  - [ ] Access an image
 
-## Ideas
+## Backlog
  - [ ] Manage images
  - [ ] Image Processing
  - [ ] Permission-based access
