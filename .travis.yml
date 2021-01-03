@@ -13,3 +13,5 @@ deploy:
     runtime: "nodejs12.x"
     handler_name: "handler"
     zip: src/helloWorld
+    on:
+      branch: main
