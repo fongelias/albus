@@ -1,4 +1,4 @@
-# albus
+# albus be
 [![Build Status](https://travis-ci.com/fongelias/albus-be.svg?branch=main)](https://travis-ci.com/fongelias/albus-be)
 
 This is a photo management platform.
