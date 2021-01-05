@@ -9,8 +9,8 @@ This file is used for planning and outlining the directory structure of this app
 +--docs
 |  +--STRUCTURE.md
 |  +--CREATE_LAMBDA.md
+|  +--ROADMAP.md
 +--src
-|  +--templates
 +--.travis.yml
 ```
 
@@ -21,7 +21,7 @@ This file is used for planning and outlining the directory structure of this app
 |docs|stores documentation|
 |STRUCTURE.md|see above|
 |CREATE_LAMBDA.md|instructions on how to create a lambda|
+|ROADMAP.md|Feature Roadmap for the application|
 |src|stores code for lambdas|
-|src/templates|code for lambda templates|
 |.travis.yml|configuration for travis CI, including CD for each lambda|
 
